@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Combat Extended Melee</name>
+	<author>CE Team</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<url>https://ludeon.com/forums/index.php?topic=33461.0</url>
+	<description>Version: 1.0.1.0\n\nAdds several new melee weapons to take advantage of CE mechanics.</description>
+</ModMetaData>
