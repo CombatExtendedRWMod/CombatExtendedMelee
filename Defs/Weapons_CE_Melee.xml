@@ -254,7 +254,7 @@
         </capacities>
         <power>6</power>
         <cooldownTime>1.16</cooldownTime>
-        <armorPenetrationKPA>225</armorPenetrationKPA>
+        <armorPenetrationKPA>2.025</armorPenetrationKPA>
         <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -277,7 +277,7 @@
         <power>40</power>
         <cooldownTime>1.16</cooldownTime>
         <chanceFactor>1.165</chanceFactor>
-        <armorPenetrationKPA>225</armorPenetrationKPA>
+        <armorPenetrationKPA>2.025</armorPenetrationKPA>
         <armorPenetrationRHA>2.03</armorPenetrationRHA>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
@@ -334,7 +334,7 @@
         </capacities>
         <power>3</power>
         <cooldownTime>1.6</cooldownTime>
-        <armorPenetrationKPA>0.65</armorPenetrationKPA>
+        <armorPenetrationKPA>.650</armorPenetrationKPA>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -388,7 +388,7 @@
         </capacities>
         <power>2</power>
         <cooldownTime>1.35</cooldownTime>
-        <armorPenetrationKPA>0.325</armorPenetrationKPA>
+        <armorPenetrationKPA>.325</armorPenetrationKPA>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -398,7 +398,7 @@
         </capacities>
         <power>26</power>
         <cooldownTime>1.35</cooldownTime>
-        <armorPenetrationKPA>3.25</armorPenetrationKPA>
+        <armorPenetrationKPA>3.250</armorPenetrationKPA>
         <armorPenetrationRHA>7.3</armorPenetrationRHA>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
@@ -410,7 +410,7 @@
         <power>20</power>
         <cooldownTime>0.79</cooldownTime>
         <chanceFactor>1.33</chanceFactor>
-        <armorPenetrationKPA>9.29</armorPenetrationKPA>
+        <armorPenetrationKPA>9.290</armorPenetrationKPA>
         <armorPenetrationRHA>7.6</armorPenetrationRHA>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
@@ -495,7 +495,7 @@
         <power>2</power>
         <chanceFactor>0.33</chanceFactor>
         <cooldownTime>1.52</cooldownTime>
-        <armorPenetrationKPA>0.5</armorPenetrationKPA>
+        <armorPenetrationKPA>.500</armorPenetrationKPA>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -505,7 +505,7 @@
         </capacities>
         <power>18</power>
         <cooldownTime>1</cooldownTime>
-        <armorPenetrationKPA>11.25</armorPenetrationKPA>
+        <armorPenetrationKPA>11.250</armorPenetrationKPA>
         <armorPenetrationRHA>90</armorPenetrationRHA>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
@@ -516,7 +516,7 @@
         </capacities>
         <power>46</power>
         <cooldownTime>0.5</cooldownTime>
-        <armorPenetrationKPA>45</armorPenetrationKPA>
+        <armorPenetrationKPA>45.000</armorPenetrationKPA>
         <armorPenetrationRHA>80</armorPenetrationRHA>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
