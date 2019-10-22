@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName = "Mercenary_Slasher"]/weaponTags</xpath>
+    <value>
+      <li>SpacerMelee</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Settlement"]/options
+      | Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/guards</xpath>
+    <value>
+      <Mercenary_SlasherElite>3</Mercenary_SlasherElite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li/options[Mercenary_Slasher]</xpath>
+    <value>
+      <Mercenary_SlasherElite>3</Mercenary_SlasherElite>
+      <PirateSlasherBoss>2</PirateSlasherBoss>
+    </value>
+  </Operation>
+
+</Patch>
+

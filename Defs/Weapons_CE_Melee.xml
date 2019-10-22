@@ -79,8 +79,9 @@
 
   <ThingDef Name="PoweredMeleeWeaponMakeable_CE" ParentName="MeleeWeaponMakeable_CE" Abstract="True">
     <techLevel>Spacer</techLevel>
+    <generateCommonality>0.5</generateCommonality>
     <weaponTags>
-      <li>SpacerGun</li>
+      <li>SpacerMelee</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>CE_PoweredMelee</researchPrerequisite>
@@ -178,7 +179,7 @@
       <li Class="CombatExtended.ToolCE">
         <label>handle</label>
         <capacities>
-          <li>Blunt</li>
+          <li>Poke</li>
         </capacities>
         <power>5</power>
         <cooldownTime>2.01</cooldownTime>
@@ -327,9 +328,9 @@
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <costList>
-      <Plasteel>75</Plasteel>
+      <Plasteel>50</Plasteel>
       <ComponentIndustrial>6</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <weaponTags>
       <li>CE_OneHandedWeapon</li>
@@ -381,9 +382,9 @@
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <costList>
-      <Plasteel>60</Plasteel>
-      <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <weaponTags>
       <li>CE_OneHandedWeapon</li>
@@ -448,9 +449,9 @@
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <costList>
-      <Plasteel>150</Plasteel>
-      <ComponentIndustrial>12</ComponentIndustrial>
-      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>120</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -488,11 +489,13 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Ultra</techLevel>
+    <generateAllowChance>0.1</generateAllowChance>
+    <generateCommonality>0.1</generateCommonality>
     <statBases>
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>3000</MarketValue>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <tools>
