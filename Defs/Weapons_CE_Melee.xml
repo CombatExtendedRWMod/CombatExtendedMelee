@@ -168,7 +168,7 @@
       <WorkToMake>25000</WorkToMake>
       <Mass>3.2</Mass>
       <Bulk>12</Bulk>
-      <MeleeCounterParryBonus>0.83</MeleeCounterParryBonus>
+      <MeleeCounterParryBonus>0.59</MeleeCounterParryBonus>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <stuffCategories>
@@ -202,11 +202,11 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>61</power>
-        <cooldownTime>2.01</cooldownTime>
+        <power>47</power>
+        <cooldownTime>3.12</cooldownTime>
         <chanceFactor>1.165</chanceFactor>
-        <armorPenetrationBlunt>6.4</armorPenetrationBlunt>
-        <armorPenetrationSharp>0.72</armorPenetrationSharp>
+        <armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+        <armorPenetrationSharp>0.4</armorPenetrationSharp>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -217,9 +217,9 @@
       </skillRequirements>
     </recipeMaker>
     <equippedStatOffsets>
-      <MeleeCritChance>0.8</MeleeCritChance>
-      <MeleeParryChance>0.63</MeleeParryChance>
-      <MeleeDodgeChance>0.67</MeleeDodgeChance>
+      <MeleeCritChance>0.08</MeleeCritChance>
+      <MeleeParryChance>0.5</MeleeParryChance>
+      <MeleeDodgeChance>0.5</MeleeDodgeChance>
     </equippedStatOffsets>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
