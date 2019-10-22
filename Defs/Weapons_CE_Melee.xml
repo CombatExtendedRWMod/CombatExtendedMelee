@@ -64,6 +64,16 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+          <li>WoodLog</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
 
@@ -108,7 +118,6 @@
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
-    <li>Stony</li>
     </stuffCategories>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -116,10 +125,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>34</power>
-        <cooldownTime>2.01</cooldownTime>
-        <chanceFactor>1.33</chanceFactor>
-        <armorPenetrationBlunt>14.4</armorPenetrationBlunt>
+        <power>36</power>
+        <cooldownTime>2.67</cooldownTime>
+        <armorPenetrationBlunt>15.75</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -195,7 +203,7 @@
           <li>Cut</li>
         </capacities>
         <power>61</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>2.01</cooldownTime>
         <chanceFactor>1.165</chanceFactor>
         <armorPenetrationBlunt>6.4</armorPenetrationBlunt>
         <armorPenetrationSharp>0.72</armorPenetrationSharp>
@@ -240,7 +248,7 @@
       <WorkToMake>15000</WorkToMake>
       <Mass>1.8</Mass>
       <Bulk>10</Bulk>
-      <MeleeCounterParryBonus>0.89</MeleeCounterParryBonus>
+      <MeleeCounterParryBonus>1.08</MeleeCounterParryBonus>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -253,7 +261,7 @@
           <li>Blunt</li>
         </capacities>
         <power>6</power>
-        <cooldownTime>1.16</cooldownTime>
+        <cooldownTime>1.31</cooldownTime>
         <armorPenetrationBlunt>2.025</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
       </li>
@@ -263,7 +271,7 @@
           <li>Cut</li>
         </capacities>
         <power>47</power>
-        <cooldownTime>1.74</cooldownTime>
+        <cooldownTime>2.9</cooldownTime>
         <chanceFactor>1.165</chanceFactor>
         <armorPenetrationBlunt>8.1</armorPenetrationBlunt>
         <armorPenetrationSharp>1.62</armorPenetrationSharp>
@@ -290,8 +298,8 @@
     </recipeMaker>
     <equippedStatOffsets>
       <MeleeCritChance>0.22</MeleeCritChance>
-      <MeleeParryChance>1.33</MeleeParryChance>
-      <MeleeDodgeChance>0.57</MeleeDodgeChance>
+      <MeleeParryChance>1.53</MeleeParryChance>
+      <MeleeDodgeChance>0.67</MeleeDodgeChance>
     </equippedStatOffsets>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -334,7 +342,7 @@
         </capacities>
         <power>3</power>
         <cooldownTime>1.6</cooldownTime>
-        <armorPenetrationBlunt>.650</armorPenetrationBlunt>
+        <armorPenetrationBlunt>0.650</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -388,7 +396,7 @@
         </capacities>
         <power>2</power>
         <cooldownTime>1.35</cooldownTime>
-        <armorPenetrationBlunt>.325</armorPenetrationBlunt>
+        <armorPenetrationBlunt>0.325</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -484,6 +492,7 @@
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
+      <MarketValue>1000</MarketValue>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <tools>
@@ -495,7 +504,7 @@
         <power>2</power>
         <chanceFactor>0.33</chanceFactor>
         <cooldownTime>1.52</cooldownTime>
-        <armorPenetrationBlunt>.500</armorPenetrationBlunt>
+        <armorPenetrationBlunt>0.500</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -516,7 +525,7 @@
         </capacities>
         <power>46</power>
         <cooldownTime>0.5</cooldownTime>
-        <armorPenetrationBlunt>45.000</armorPenetrationBlunt>
+        <armorPenetrationBlunt>45</armorPenetrationBlunt>
         <armorPenetrationSharp>80</armorPenetrationSharp>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
