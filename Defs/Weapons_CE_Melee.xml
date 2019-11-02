@@ -144,8 +144,8 @@
     </recipeMaker>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.25,1.25</DrawSize>
-        <DrawOffset>0.1,0.2</DrawOffset>
+        <DrawSize>1.25,1.10</DrawSize>
+        <DrawOffset>0.18,0.15</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
@@ -224,8 +224,8 @@
     </equippedStatOffsets>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.25,1.25</DrawSize>
-        <DrawOffset>0.35,0.35</DrawOffset>
+        <DrawSize>1.28,1.28</DrawSize>
+        <DrawOffset>0.27,0.27</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
@@ -304,8 +304,8 @@
     </equippedStatOffsets>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.4,1.4</DrawSize>
-        <DrawOffset>0.35,0.4</DrawOffset>
+        <DrawSize>1.6,1.5</DrawSize>
+        <DrawOffset>0.35,0.30</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
@@ -326,7 +326,7 @@
       <Bulk>3.5</Bulk>
       <MeleeCounterParryBonus>0.23</MeleeCounterParryBonus>
     </statBases>
-    <equippedAngleOffset>-25</equippedAngleOffset>
+    <equippedAngleOffset>-65</equippedAngleOffset>
     <costList>
       <Plasteel>50</Plasteel>
       <ComponentIndustrial>6</ComponentIndustrial>
@@ -362,6 +362,12 @@
       <MeleeParryChance>0.23</MeleeParryChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.10,1.10</DrawSize>
+        <DrawOffset>0.05,0</DrawOffset>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ==================== Powered sword ==================== -->
@@ -380,7 +386,7 @@
       <Bulk>3.5</Bulk>
       <MeleeCounterParryBonus>0.46</MeleeCounterParryBonus>
     </statBases>
-    <equippedAngleOffset>-25</equippedAngleOffset>
+    <equippedAngleOffset>-65</equippedAngleOffset>
     <costList>
       <Plasteel>50</Plasteel>
       <ComponentIndustrial>6</ComponentIndustrial>
@@ -429,6 +435,12 @@
       <MeleeParryChance>0.46</MeleeParryChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.10,1.10</DrawSize>
+        <DrawOffset>0.10,0</DrawOffset>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ==================== Powered maul ==================== -->
@@ -447,7 +459,7 @@
       <Bulk>10</Bulk>
       <MeleeCounterParryBonus>0.26</MeleeCounterParryBonus>
     </statBases>
-    <equippedAngleOffset>-25</equippedAngleOffset>
+    <equippedAngleOffset>-65</equippedAngleOffset>
     <costList>
       <Plasteel>120</Plasteel>
       <ComponentIndustrial>8</ComponentIndustrial>
@@ -472,8 +484,8 @@
     </equippedStatOffsets>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.5,1.5</DrawSize>
-        <DrawOffset>0,0</DrawOffset>
+        <DrawSize>1.30,1.20</DrawSize>
+        <DrawOffset>0.20,0</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
@@ -497,7 +509,7 @@
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
       <MarketValue>3000</MarketValue>
     </statBases>
-    <equippedAngleOffset>-25</equippedAngleOffset>
+    <equippedAngleOffset>-45</equippedAngleOffset>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>handle</label>
@@ -543,8 +555,8 @@
     </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.25,1.25</DrawSize>
-        <DrawOffset>0,0</DrawOffset>
+        <DrawSize>1.22,1.22</DrawSize>
+        <DrawOffset>0.05,0.05</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
